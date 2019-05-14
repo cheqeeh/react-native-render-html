@@ -21,7 +21,7 @@ export const TEXT_TAGS = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'figcaption', 'p',
 export const PREFORMATTED_TAGS = ['pre'];
 
 // These tags can either be mapped to View or Text wrappers, depending solely on their children
-export const MIXED_TAGS = ['a'];
+export const MIXED_TAGS = [];
 
 // These text tags shouldn't be associated with their siblings in the associateRawTags method
 export const TEXT_TAGS_IGNORING_ASSOCIATION = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
